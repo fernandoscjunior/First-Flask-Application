@@ -92,3 +92,6 @@ def logout():
 @app.route('/uploads/<nome_arquivo>')
 def imagem(nome_arquivo):
     return send_from_directory('uploads', nome_arquivo) 
+
+#Criado por Fernando da Silva Costa Júnior
+#Junto ao curso de Flask da alura
